@@ -15,7 +15,7 @@ install_ansible() {
 }
 
 install_jenkins() {
-    echo "Installing Git..."
+    echo "Installing Jenkins..."
     # Add commands to install Git here
     sudo wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
