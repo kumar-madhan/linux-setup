@@ -9,6 +9,7 @@ kubectl port-forward svc/argocd-server -n argocd 8080:443
 
 # Configure Cluster Config
 export KUBECONFIG=/home/madha/k8s-1-28-6-do-0-blr1-1715667007067-kubeconfig.yaml
+kubectl -n argocd get all
 watch kubectl get pods -n argocd
 
 # install Brew Package Manager (Command line tool)
